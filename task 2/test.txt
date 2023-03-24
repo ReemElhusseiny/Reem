@@ -1,0 +1,3 @@
+locally : git branch -d dev 
+
+remotely: git branch --delete dev
