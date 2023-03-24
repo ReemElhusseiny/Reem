@@ -1,0 +1,5 @@
+ignore.txt
+*.pdf
+!try.pdf
+
+git add -f file.pdf 
