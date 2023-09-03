@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" <title>Document</title> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+        integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./task222.css">
+</head>
+
+<body>
+    <div id='header'></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img id="img1" src="./home-4-logo.webp" width="185"
+                    height="28.53723404255319"></a>
+
+            <form class="d-flex" role="search">
+                <input class="form-control " type="search" placeholder="Search The Store" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><svg fill="#000000" height="30px" width="20px"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 502.173 502.173" xml:space="preserve">
+                        <g>
+                            <g>
+                                <g>
+                                    <path d="M494.336,443.646L316.402,265.713c20.399-31.421,30.023-68.955,27.189-106.632
+    C340.507,118.096,322.783,79.5,293.684,50.4C261.167,17.884,217.984,0,172.023,0c-0.222,0-0.445,0.001-0.668,0.001
+    C125.149,0.176,81.837,18.409,49.398,51.342c-66.308,67.316-65.691,176.257,1.375,242.85
+    c29.112,28.907,67.655,46.482,108.528,49.489c37.579,2.762,75.008-6.867,106.343-27.21l177.933,177.932
+    c5.18,5.18,11.984,7.77,18.788,7.77s13.608-2.59,18.789-7.769l13.182-13.182C504.695,470.862,504.695,454.006,494.336,443.646z
+     M480.193,467.079l-13.182,13.182c-2.563,2.563-6.73,2.561-9.292,0L273.914,296.456c-1.936-1.937-4.497-2.929-7.074-2.929
+    c-2.044,0-4.098,0.624-5.858,1.898c-60.538,43.788-143.018,37.3-196.118-15.425C5.592,221.146,5.046,124.867,63.646,65.377
+    c28.67-29.107,66.949-45.222,107.784-45.376c0.199,0,0.392-0.001,0.591-0.001c40.617,0,78.785,15.807,107.52,44.542
+    c53.108,53.108,59.759,135.751,15.814,196.509c-2.878,3.979-2.441,9.459,1.032,12.932l183.806,183.805
+    C482.755,460.35,482.755,464.517,480.193,467.079z" />
+                                    <path d="M259.633,84.449c-48.317-48.316-126.935-48.316-175.253,0c-23.406,23.406-36.296,54.526-36.296,87.627
+    c0,33.102,12.89,64.221,36.296,87.627S138.906,296,172.007,296c33.102,0,64.222-12.891,87.627-36.297
+    C307.951,211.386,307.951,132.767,259.633,84.449z M245.492,245.561C225.863,265.189,199.766,276,172.007,276
+    c-27.758,0-53.856-10.811-73.484-30.44c-19.628-19.628-30.438-45.726-30.438-73.484s10.809-53.855,30.438-73.484
+    c20.262-20.263,46.868-30.39,73.484-30.39c26.61,0,53.227,10.133,73.484,30.39C286.011,139.112,286.011,205.042,245.492,245.561z
+    " />
+                                    <path d="M111.017,153.935c1.569-5.296-1.452-10.861-6.747-12.43c-5.294-1.569-10.86,1.451-12.429,6.746
+    c-8.73,29.459-0.668,61.244,21.04,82.952c1.952,1.952,4.512,2.929,7.071,2.929s5.118-0.977,7.071-2.928
+    c3.905-3.906,3.905-10.238,0-14.143C110.506,200.544,104.372,176.355,111.017,153.935z" />
+                                    <path d="M141.469,94.214c-10.748,4.211-20.367,10.514-28.588,18.735c-3.905,3.906-3.905,10.238,0,14.143
+    c1.952,1.952,4.512,2.929,7.071,2.929s5.118-0.977,7.07-2.929c6.26-6.26,13.575-11.057,21.741-14.255
+    c5.143-2.015,7.678-7.816,5.664-12.959C152.413,94.735,146.611,92.202,141.469,94.214z" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><svg id="login"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" width="35px" height="35px" viewBox="0 0 256 256" xml:space="preserve">
+
+                                <defs>
+                                </defs>
+                                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                    <path
+                                        d="M 84.657 90 H 5.343 v -2 c 0 -21.867 17.79 -39.657 39.657 -39.657 c 21.867 0 39.657 17.79 39.657 39.657 V 90 z M 9.398 86 h 71.203 C 79.562 67.265 63.99 52.343 45 52.343 S 10.439 67.265 9.398 86 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                    <path
+                                        d="M 45 43.971 c -12.123 0 -21.985 -9.863 -21.985 -21.986 C 23.015 9.863 32.877 0 45 0 c 12.123 0 21.985 9.863 21.985 21.985 C 66.985 34.108 57.123 43.971 45 43.971 z M 45 4 c -9.917 0 -17.985 8.068 -17.985 17.985 c 0 9.917 8.068 17.986 17.985 17.986 s 17.985 -8.068 17.985 -17.986 C 62.985 12.068 54.917 4 45 4 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                </g>
+                            </svg>
+                            <p id="logtext">Hello <br>
+                                <b>sign in</b>
+                            </p>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <svg id="heart" fill="#000000" height="35px" width="35px" version="1.1" id="Capa_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 471.701 471.701" xml:space="preserve">
+                                <g>
+                                    <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
+                            c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3
+                            l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4
+                            C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3
+                            s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4
+                            c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3
+                            C444.801,187.101,434.001,213.101,414.401,232.701z" />
+                                </g>
+                            </svg>
+                            <p id="hearttext"><b>wish <br>
+                                    Lists</b> </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <svg id="cart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" width="35px" height="35px" viewBox="0 0 256 256" xml:space="preserve">
+
+                                <defs>
+                                </defs>
+                                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                    <path
+                                        d="M 74.396 66.93 h -47.12 c -3.491 0 -5.549 -2.665 -5.777 -5.299 c -0.178 -2.057 0.741 -4.326 2.792 -5.506 L 16.745 22.34 c -0.132 -0.592 0.012 -1.213 0.392 -1.687 c 0.379 -0.474 0.954 -0.75 1.561 -0.75 H 88 c 0.647 0 1.256 0.314 1.631 0.842 c 0.375 0.528 0.471 1.206 0.258 1.817 l -7.983 22.876 c -0.991 2.838 -3.446 4.921 -6.406 5.438 l -48.522 8.48 c -0.006 0.001 -0.012 0.002 -0.019 0.003 c -1.499 0.267 -1.507 1.541 -1.473 1.926 c 0.033 0.386 0.261 1.644 1.792 1.644 h 47.12 c 1.104 0 2 0.896 2 2 S 75.501 66.93 74.396 66.93 z M 21.193 23.904 l 6.966 31.186 l 46.652 -8.152 c 1.533 -0.268 2.805 -1.347 3.318 -2.817 l 7.055 -20.216 H 21.193 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                    <path
+                                        d="M 27.846 83.111 c -3.615 0 -6.555 -2.94 -6.555 -6.555 c 0 -3.615 2.94 -6.556 6.555 -6.556 s 6.556 2.94 6.556 6.556 C 34.401 80.171 31.46 83.111 27.846 83.111 z M 27.846 74.001 c -1.409 0 -2.555 1.146 -2.555 2.556 c 0 1.408 1.146 2.555 2.555 2.555 c 1.409 0 2.556 -1.146 2.556 -2.555 C 30.401 75.147 29.255 74.001 27.846 74.001 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                    <path
+                                        d="M 68.845 83.111 c -3.615 0 -6.556 -2.94 -6.556 -6.555 c 0 -3.615 2.94 -6.556 6.556 -6.556 s 6.556 2.94 6.556 6.556 C 75.4 80.171 72.46 83.111 68.845 83.111 z M 68.845 74.001 c -1.409 0 -2.556 1.146 -2.556 2.556 c 0 1.408 1.146 2.555 2.556 2.555 s 2.556 -1.146 2.556 -2.555 C 71.4 75.147 70.254 74.001 68.845 74.001 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                    <path
+                                        d="M 18.695 23.904 c -0.916 0 -1.742 -0.633 -1.95 -1.564 l -1.407 -6.301 c -0.677 -3.033 -3.321 -5.151 -6.428 -5.151 H 2 c -1.104 0 -2 -0.896 -2 -2 s 0.896 -2 2 -2 h 6.909 c 4.995 0 9.244 3.404 10.333 8.279 l 1.407 6.301 c 0.241 1.078 -0.438 2.147 -1.516 2.388 C 18.986 23.889 18.839 23.904 18.695 23.904 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                </g>
+                            </svg>
+                            <p id="carttext1">0</p>
+                            <p id="carttext2"><b>cart</b></p>
+
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--End of Navbar1-->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Shop All Cotegories
+                </button>
+                <?xml version="1.0" encoding="iso-8859-1"?>
+                <?xml version="1.0" encoding="iso-8859-1"?>
+                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 24.75 24.75"
+                    xml:space="preserve">
+                    <g>
+                        <path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
+                            c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
+                            c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z" />
+                    </g>
+                </svg>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <div id="nav2"><b>Theme Demo</b>
+                            <p>ELLA 30% OFF</p>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div id="nav3"><b>Shop</b></div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div id="nav4"><b>Product</b></div>
+                    </li>
+                    <li class="nav-item">
+                        <div id="nav5"><b>Blog</b></div>
+                    </li>
+                    <li class="nav-item">
+                        <div id="nav6"><b>Pages</b></div>
+                    </li>
+                    <li class="nav-item">
+                        <div id="nav7"><b>New in</b></div>
+                    </li>
+                    <li class="nav-item">
+                        <div id="nav8"><b>Trend</b></div>
+                    </li>
+                    <li class="nav-item">
+                        <div id="nav9"><b>Collections</b></div>
+                    </li>
+                    <li class="nav-item">
+                        <div id="nav10">Available 24/7: 091 234-ELLA</div>
+                    </li>
+                    <li class="nav-item">
+                        <div id="nav10">Available 24/7: 091 234-ELLA</div>
+                    </li>
+                    <div id="nav11">En/USD</div>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--navbar2-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators mx-10px">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2 id="text1">FIND THE RIGHT</h2>
+
+                <img src="./home-4-slider-2.webp" class="d-block w-100" alt="...">
+                <map name="image_map">
+                    <area alt="" title="" href="https://www.Google.com" coords="585,3,965,131" shape="rect">
+                </map>
+
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 id="ttext1">CUSTOM WIDE BODY</h2>
+                <img src="./home-4-slider-1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <h2 id="tttext1">CHARMING RETRRO</h2>
+                <img src="./home-4-slider-3.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> -->
+    </div>
+
+    <p id="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <button id="btn" type="button">Shop Now</button>
+    <div class="btn-group">
+        <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Select1
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Select1</a></li>
+            <li><a class="dropdown-item" href="#">Theme Demo</a></li>
+            <li><a class="dropdown-item" href="#">Shop</a></li>
+            <li><a class="dropdown-item" href="#">Product</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">pages</a></li>
+            <li><a class="dropdown-item" href="#">New in</a></li>
+            <li><a class="dropdown-item" href="#">collections</a></li>
+
+
+
+        </ul>
+        <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Select2
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Select2</a></li>
+
+        </ul>
+        <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Select3
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Select3</a></li>
+        </ul>
+
+        <button id="btn2" type="button">Search</button>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col" id="c1"><img src="./home-4-brand-custom-1.webp">
+                <p class="t1">INTERIOR</p>
+            </div>
+            <div class="col" id="c2"><img src="./home-4-brand-custom-2.webp">
+                <p class="t1">EXTERIOR</p>
+            </div>
+            <div class="col" id="c3"><img src="./home-4-brand-custom-3.webp">
+                <p class="t1">PERFORMANCE</p>
+            </div>
+            <div class="col" id="c4"><img src="./home-4-brand-custom-4.webp">
+                <p class="t1">LIGHTING</p>
+            </div>
+            <div class="col" id="c5"><img src="./home-4-brand-custom-5.webp">
+                <p class="t1">WHEELS</p>
+            </div>
+            <div class="col" id="c6"><img src="./home-4-brand-custom-6.webp">
+                <p class="t1">ELECTRONICS</p>
+            </div>
+            <div class="col" id="c7"><img src="./home-4-brand-custom-7.webp">
+                <p class="t1">BODY PARTS </p>
+            </div>
+            <div class="col" id="c8"><img src="./home-4-brand-custom-8.webp">
+                <p class="t1">TOOLS</p>
+            </div>
+            <div class="col" id="c9"><img src="./home-4-brand-custom-9.webp">
+                <p class="t1">PARTS</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" style="width: 18rem;">
+            <div class="image-container">
+                <img class="one" src="./wheel_arch-5b_a06e760f-0b87-4d01-b64a-788b34dbefb1.jpg" class="card-img-top"
+                    alt="...">
+                <img class="two" src="./8_e9eeda3f-70ce-4006-b630-acd08be80905.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Modern Amusement®</h5>
+                <p class="card-text">(Product 9) Sample - Wheels And Tires...</p>
+                <p class="title">$980.00</p>
+
+                <a href="#" class="btn btn-primary">QUICK ADD</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="image-container">
+                <img class="one" src="./camera-1f_a16744de-1300-4c52-9a9c-35935e34acc2.webp" class="card-img-top"
+                    alt="...">
+                <img class="two" src="./camera-1_9e0c2106-8680-4d42-8d6b-a7548e1221cb_570x.webp" class="card-img-top"
+                    alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Great Neckcy®</h5>
+                <p class="card-text">(Product 9) Sample - Auto Parts And...</p>
+                <p class="title"><span>$240.00
+                    </span>
+                    $220.00</p>
+
+                <a href="#" class="btn btn-primary">QUICK ADD</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="image-container">
+                <img class="one" src="./20_c0d8fdd3-5ee2-4e43-af89-430712a051d2.webp" class="card-img-top" alt="...">
+                <img class="two" src="./19_b1b4fcee-44ff-42cf-8e26-acaa506b9af7.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">High Speed Gear®</h5>
+                <p class="card-text">(Product 8) Sample - Wheels And Tires...</p>
+                <p class="title"><span>$810.00</span> $740.00</p>
+
+                <a href="#" class="btn btn-primary">QUICK ADD</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="image-container">
+                <img class="one" src="./headphone-1_570x.webp" class="card-img-top" alt="...">
+                <img class="two" src="./headphone-1b_570x (1).webp" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">MGreen Mountain Car</h5>
+                <p class="card-text">(Product 8) Sample - Auto Parts And...</p>
+                <p class="title"><span>$140.00</span> $120.00</p>
+
+                <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"
+        integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
